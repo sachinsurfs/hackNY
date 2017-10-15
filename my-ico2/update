@@ -1,0 +1,5 @@
+GustavoCoinCrowdsale.deployed().then(inst => inst.sendTransaction({ from: '0xfb790500a23f10a0544303f49589f0803d015580', value:web3.toWei(1, "ether")}))
+GustavoCoinCrowdsale.deployed().then(inst => inst.sendTransaction({ from: '0xfb790500a23f10a0544303f49589f0803d015580', value:web3.toWei(1, "ether")}))
+GustavoCoinCrowdsale.deployed().then(inst => inst.sendTransaction({ from: '0xfb790500a23f10a0544303f49589f0803d015580', value:web3.toWei(1, "ether")}))
+
+GustavoCoinCrowdsale.deployed().then(inst => inst.sendTransaction({ from: '0xfb790500a23f10a0544303f49589f0803d015580', value:web3.toWei(1, "ether")}))

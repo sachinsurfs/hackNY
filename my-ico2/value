@@ -1,0 +1,3 @@
+GustavoCoin.at('0x24a839f459b7bc4dff0ee5ef75897d39b16cba62').balanceOf('0xfb790500a23f10a0544303f49589f0803d015580').then(balance => account1GusTokenBalance = balance.toString(10))
+.exit
+

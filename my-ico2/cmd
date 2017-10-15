@@ -1,0 +1,33 @@
+  account1 = web3.eth.accounts[1];
+  GustavoCoinCrowdsale.deployed().then(inst => { crowdsale = inst });
+crowdsale.token().then(addr => { tokenAddress = addr } );
+
+
+
+
+gustavoCoinInstance = GustavoCoin.at(tokenAddress);
+
+
+GustavoCoinCrowdsale.deployed().then(inst => inst.sendTransaction({ from: account1, value:web3.toWei(1, "ether")}))
+
+  gustavoCoinInstance.balanceOf(account1).then(balance => account1GusTokenBalance = balance.toString(10))
+	web3.fromWei(account1GusTokenBalance, "ether")
+
+
+
+addr => { tokenAddress = addr } );gustavoCoinInstance = GustavoCoin.at(tokenAddress);GustavoCoinCrowdsale.deployed().then(inst => inst.sendTransaction({ from: account1, value:web3.toWei(1, "ether")}):q
+
+
+
+
+web3.fromWei(account1GusTokenBalance, "ether"):
+
+
+GustavoCoinCrowdsale.deployed().then(inst => inst.sendTransaction({ from: '0xfb790500a23f10a0544303f49589f0803d015580', value:web3.toWei(1, "ether")})
+
+
+GustavoCoin.at('0x24a839f459b7bc4dff0ee5ef75897d39b16cba62').balanceOf('0xfb790500a23f10a0544303f49589f0803d015580').then(balance => account1GusTokenBalance = balance.toString(10))
+
+
+
+'0xfb790500a23f10a0544303f49589f0803d015580'
